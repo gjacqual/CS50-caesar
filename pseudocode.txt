@@ -1,0 +1,11 @@
+1. Check count of arguments. If it is less or bigger that 2 - print  "Usage: ./caesar key", and close program (return 1).
+2. Check argument. Iteration. If one symbol is no number - print "Usage: ./caesar key" and close program (return 1)
+2.2 Convert string to integer - atoi.
+3. Ask user string - text get_string; Print text "plaintext:" and string ;
+
+4. Coding text. iterate all sympols. Rotate each symbol to number that user inputs.
+4.1 Uppercase letters rotate and preserving case
+4.2 lowercase letters rotate and preserving case
+4.3 If it is other no alphabetic symbol, we  print out the character as is
+5. Print "ciphertext:" and new coded text;
+6.Print a new line; return - 0;
